@@ -14,7 +14,7 @@ Merhabalar.
 
 Bu yazida DTO (Data transfer Object) seklinde bilinen veri transfer nesnelerinin Spring Boot uygulamalarinda ne kadar elzem olduguna deginmeye calisacagim.
 
-Somut bir örnek üzerinden meseleyi anlatmak gerekirse projemdeki **Post**, **Category** ve **Comment** tablolari icin Entity iliskilerine bakalim.
+Somut bir örnek üzerinden meseleyi anlatmak gerekirse [projemdeki](https://github.com/erata/sample-blog) **Post**, **Category** ve **Comment** tablolari icin Entity iliskilerine bakalim.
 
 **Post** Entity sinifimiz:
 ```java
