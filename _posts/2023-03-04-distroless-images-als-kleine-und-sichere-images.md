@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 title: "Distroless-Images als kleine und sichere Images\_"
 categories:
   - bilgi-guvenligi
+  - devops
 tags:
   - Docker
   - Container
