@@ -19,7 +19,7 @@ categories:
 
 **Yayın özeti:** Bir banka asistanına AI eklemek kolay görünür. Asıl soru, Agent değiştiğinde Customer use case'lerinin ve güvenlik kurallarının nasıl korunacağıdır. VirtualBank'in modüler monolit tasarımını bu sorunun etrafında kurdum.
 
-![VirtualBank katmanları](../assets/media/architecture-overview.svg)
+![VirtualBank katmanları]({{ '/assets/media/architecture-overview.svg' | relative_url }})
 
 <!--more-->
 
@@ -41,7 +41,7 @@ VirtualBank.Web             => Composition Root, DI, config ve host
 
 Ana ilke şu: **Application, Infrastructure'daki sağlayıcıyı tanımaz.** Örneğin Application'daki `IEmbeddingProvider`, embedding üretir; implementasyonun OpenRouter, OpenAI veya Ollama oluşu Application'ın problemi değildir. Aynısı `ICustomerRepository` ve `IAssistantRuntime` için de geçerlidir.
 
-![Clean Architecture Yapısı](../assets/media/clean-architecture.png)
+![Clean Architecture Yapısı]({{ '/assets/media/clean-architecture.png' | relative_url }})
 
 Burada Dependency Inversion önemli: soyutlama iş ihtiyacını temsil eder. `GetCustomerHandler`, veritabanı sürücüsüne değil, güvenli bir müşteri okuma portuna bağımlıdır. DI kaydı ise Web katmanında gerçek adaptörü bağlar. Bu testte fake repository kullanabilmeyi de sağlar.
 
