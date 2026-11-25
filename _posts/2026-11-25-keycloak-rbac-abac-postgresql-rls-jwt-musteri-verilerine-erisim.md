@@ -19,7 +19,7 @@ tags:
 
 **Yayın özeti:** Kullanıcının oturum açmış olması, her müşteriyi görebileceği anlamına gelmez. VirtualBank'te Anna, Mehmet ve Deniz örnekleriyle authentication ile authorization arasındaki farkı uygulama ve veritabanı katmanlarında ele alıyorum.
 
-![Authorization zinciri](../assets/media/security-rls.svg)
+![Authorization zinciri]({{ '/assets/media/security-rls.svg' | relative_url }})
 
 <!--more-->
 
