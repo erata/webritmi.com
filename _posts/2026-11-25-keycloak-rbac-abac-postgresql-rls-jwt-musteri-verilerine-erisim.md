@@ -1,8 +1,27 @@
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: >-
+  Keycloak, RBAC, ABAC ve PostgreSQL RLS - Bir JWT bütün müşteri verilerini açmaz
+categories:
+  - csharp
+tags:
+  - Keycloak
+  - OAuth 2.0
+  - OpenID Connect
+  - ASP.NET Core
+  - RBAC
+  - ABAC
+  - RLS
+---
 > **Yazı dizisi:** .NET ile güvenli AI uygulamaları — Bölüm 2/6. Bu metin ürün duyurusu değil, [VirtualBank](https://github.com/erata/virtual-bank-agent) projesini örnek alan, başka projelere de uygulanabilecek mühendislik rehberidir.
 
 **Yayın özeti:** Kullanıcının oturum açmış olması, her müşteriyi görebileceği anlamına gelmez. VirtualBank'te Anna, Mehmet ve Deniz örnekleriyle authentication ile authorization arasındaki farkı uygulama ve veritabanı katmanlarında ele alıyorum.
 
-![Authorization zinciri](../assets/security-rls.svg)
+![Authorization zinciri](../assets/media/security-rls.svg)
+
+<!--more-->
 
 ## Authentication sorusu: Sen kimsin?
 
