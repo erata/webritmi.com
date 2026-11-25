@@ -2,7 +2,7 @@
 layout: post
 published: true
 excerpt_separator: <!--more-->
-title: Clean Architecture ve modüler monolit — sorumluluklar ve bağımlılık kuralları
+title: Clean Architecture sadece klasör yapısı değildir: VirtualBank ile .NET 10 örneği
 tags:
   - .NET 10
   - Clean Architecture
@@ -13,7 +13,6 @@ tags:
 categories:
   - csharp
 ---
-# Clean Architecture sadece klasör yapısı değildir: VirtualBank ile .NET 10 örneği
 
 > **Yazı dizisi:** .NET ile güvenli AI uygulamaları — Bölüm 1/6. Bu metin ürün duyurusu değil, [VirtualBank](https://github.com/erata/virtual-bank-agent) projesini örnek alan, başka projelere de uygulanabilecek mühendislik rehberidir.
 
