@@ -21,6 +21,8 @@ categories:
 
 ![VirtualBank katmanları](../assets/media/architecture-overview.svg)
 
+<!--more-->
+
 ## Problem: Her şey `Program.cs` içinde başlarsa ne olur?
 
 Bir API'nin ilk sürümünde `GET /customers` endpoint'inden doğrudan SQL sorgulamak hızlıdır. Sonra Angular, kredi değerlendirme modülü ve Semantic Kernel Agent aynı bilgileri istemeye başlar. Her yeni giriş noktası kendi SQL ve yetki kontrolünü yazarsa kurallar farklılaşır. Özellikle AI aracı doğrudan repository'ye giderse normal HTTP endpoint'indeki erişim kontrolünü atlama riski oluşur.
