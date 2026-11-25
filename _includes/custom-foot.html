@@ -1,1 +1,29 @@
 <!-- Optional footer content -->
+
+<!-- Render Mermaid diagrams in Jekyll Markdown posts -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({
+    startOnLoad: false,
+    securityLevel: 'strict',
+    theme: 'default'
+  });
+
+  const blocks = document.querySelectorAll(
+    'pre > code.language-mermaid, pre > code.mermaid'
+  );
+
+  for (const code of blocks) {
+    const pre = code.parentElement;
+    const diagram = document.createElement('pre');
+
+    diagram.className = 'mermaid';
+    diagram.textContent = code.textContent;
+    pre.replaceWith(diagram);
+  }
+
+  if (document.querySelector('.mermaid')) {
+    await mermaid.run({ querySelector: '.mermaid' });
+  }
+</script>
