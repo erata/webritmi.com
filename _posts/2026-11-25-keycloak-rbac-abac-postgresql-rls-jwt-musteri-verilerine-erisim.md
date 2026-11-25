@@ -120,4 +120,7 @@ Güncel demoda platform admin kişisinin müşteri verisi talebi yönetici rolü
 
 ### Yazı dizisinde gezinme
 
-[← Önceki](./clean-architecture.md) · [Sonraki →](./efcore-rls.md) · [VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+
+[← Önceki: Clean Architecture](https://webritmi.com/2026/11/25/clean-architecture-moduler-monolit-sorumluluklar-bagimlilik-kurallari) · [Sonraki → EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/25/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar)
+
