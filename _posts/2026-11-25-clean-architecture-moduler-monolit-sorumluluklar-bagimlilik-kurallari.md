@@ -39,14 +39,7 @@ VirtualBank.Web             => Composition Root, DI, config ve host
 
 Ana ilke şu: **Application, Infrastructure'daki sağlayıcıyı tanımaz.** Örneğin Application'daki `IEmbeddingProvider`, embedding üretir; implementasyonun OpenRouter, OpenAI veya Ollama oluşu Application'ın problemi değildir. Aynısı `ICustomerRepository` ve `IAssistantRuntime` için de geçerlidir.
 
-```mermaid
-flowchart TD
-  W[Web / Composition Root] --> P[Presentation]
-  P --> A[Application / Use Cases]
-  W --> I[Infrastructure / Adapters]
-  I -. Implements ports .-> A
-  A --> M[Model / Domain]
-```
+![Clean Architecture Yapısı](../assets/media/clean-architecture.png)
 
 Burada Dependency Inversion önemli: soyutlama iş ihtiyacını temsil eder. `GetCustomerHandler`, veritabanı sürücüsüne değil, güvenli bir müşteri okuma portuna bağımlıdır. DI kaydı ise Web katmanında gerçek adaptörü bağlar. Bu testte fake repository kullanabilmeyi de sağlar.
 
