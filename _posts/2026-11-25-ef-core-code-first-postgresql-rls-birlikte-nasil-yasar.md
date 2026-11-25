@@ -1,8 +1,25 @@
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: EF Core Code First ile PostgreSQL RLS birlikte nasıl yaşar?
+tags:
+  - EF Core 10
+  - Code First
+  - Npgsql
+  - PostgreSQL
+  - Migration
+  - Row-Level Security
+categories:
+  - csharp
+---
 > **Yazı dizisi:** .NET ile güvenli AI uygulamaları — Bölüm 3/6. Bu metin ürün duyurusu değil, [VirtualBank](https://github.com/erata/virtual-bank-agent) projesini örnek alan, başka projelere de uygulanabilecek mühendislik rehberidir.
 
 **Yayın özeti:** Entity'den tablo oluşturmak, PostgreSQL'in native güvenlik özelliklerinden vazgeçmek zorunda olduğumuz anlamına gelmiyor. VirtualBank'te Code First, versioned migration ve RLS'yi nasıl ayırdığımı gösteriyorum.
 
-![EF Core ve RLS](../assets/efcore-migrations.svg)
+![EF Core ve RLS]({{ '/assets/media/efcore-migrations.svg' | relative_url }})
+
+<!--more-->
 
 ## İki farklı sorumluluk
 
@@ -91,4 +108,6 @@ Detaylar: [mimari notları](https://github.com/erata/virtual-bank-agent/blob/mai
 
 ### Yazı dizisinde gezinme
 
-[← Önceki](./keycloak-authorization.md) · [Sonraki →](./semantic-kernel-agent.md) · [VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+
+[← Önceki: Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim) · [Sonraki: Semantic Kernel ile bankacılık AI Agent →](https://webritmi.com/2026/11/25/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
