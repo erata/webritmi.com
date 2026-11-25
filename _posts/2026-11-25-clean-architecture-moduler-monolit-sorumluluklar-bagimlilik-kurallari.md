@@ -2,7 +2,7 @@
 layout: post
 published: true
 excerpt_separator: <!--more-->
-title: Clean Architecture sadece klasör yapısı değildir: VirtualBank ile .NET 10 örneği
+title: Clean Architecture sadece klasör yapısı değildir - VirtualBank ile .NET 10 örneği
 tags:
   - .NET 10
   - Clean Architecture
