@@ -160,9 +160,7 @@ Detaylar için:
 
 ---
 
-### 📚 Yazı dizisinde gezinme
-
-**Bölüm 5/6 — pgvector ile çok dilli güvenli RAG**
+### 📚 Yazı dizisinde gezinme (Bölüm 5/6)
 
 ⬅️ **Önceki yazı:** [Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/26/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
 
