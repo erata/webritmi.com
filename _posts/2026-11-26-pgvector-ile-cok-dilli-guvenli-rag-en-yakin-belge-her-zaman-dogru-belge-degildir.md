@@ -36,16 +36,7 @@ GPT-4o doğal dilde cevap üretmek ve tool seçmek için bir **chat modelidir**.
 
 Provider veya embedding modeli değişince eski vektörler karıştırılmamalı, gerektiğinde belgeler yeniden indekslenmelidir. VirtualBank `embedding_model` bilgisini her dokümana kaydeder.
 
-```mermaid
-flowchart TD
-    A[EN / DE / TR soru] --> B[Embedding: query vector]
-    B --> C[Yetkili belge kapsamı: ACL + clearance]
-    C --> D[PostgreSQL RLS ile filtrelenmiş pgvector araması]
-    D --> E[Yetkili satırlar üzerinde Top-K sıralama]
-    E --> F[Application DocumentReadPolicy]
-    F -->|Yetkili sonuç| G[LLM context]
-    F -->|Reddedilen| H[Modele iletme]
-```
+![Embedding Diagram]({{ '/assets/media/embedding_model.png' | relative_url }})
 
 ## En önemli karar: ACL aramadan sonra mı, önce mi?
 
