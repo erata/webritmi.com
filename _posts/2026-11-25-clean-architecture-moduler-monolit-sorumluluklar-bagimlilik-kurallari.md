@@ -105,8 +105,7 @@ AI tool adapter ─────┘                 │                     (RLS)
 
 **Trade-off:** Modüler monolit, dağıtık servis işletim maliyeti olmadan mantıksal modül sınırları sağlayabilir. Mikroservise geçişi ancak ölçekleme, ekip sahipliği veya bağımsız dağıtım ihtiyacı gerekçelendirir. VirtualBank bu tercihin bir örneğidir, evrensel reçete değildir.
 
-## Yazı dizisinde gezinme
+## 📚 Yazı dizisinde gezinme
 
-[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
-
-[Sonraki: Keycloak, RBAC, ABAC ve PostgreSQL RLS →](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
+➡️ **Sonraki yazı:** [Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
