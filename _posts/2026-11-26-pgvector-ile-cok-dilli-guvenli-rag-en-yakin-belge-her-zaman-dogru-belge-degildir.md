@@ -167,10 +167,15 @@ Detaylar için:
 
 **Sonuç:** Başarılı RAG, en yakın beş parçayı bulmak değildir. Doğru, yetkili, kaynak gösterilebilir ve yetersiz kanıt varsa susabilen bir bilgi erişim sistemi kurmaktır.
 
-### Yazı dizisinde gezinme
+---
 
-[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+### 📚 Yazı dizisinde gezinme
 
-[← Önceki: Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/26/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
+**Bölüm 5/6 — pgvector ile çok dilli güvenli RAG**
 
-[Sonraki: AI Agent'larda Prompt Injection →](https://webritmi.com/2026/11/25/ai-agentlarda-prompt-injection-guvenlik-sinirini-prompta-degil-uygulamaya-koymak)
+⬅️ **Önceki yazı:** [Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/26/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
+
+➡️ **Sonraki yazı:** [AI Agent'larda Prompt Injection](https://webritmi.com/2026/11/26/ai-agentlarda-prompt-injection-guvenlik-sinirini-prompta-degil-uygulamaya-koymak)
+
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
+
