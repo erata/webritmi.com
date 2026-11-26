@@ -107,7 +107,7 @@ Detaylar: [mimari notları](https://github.com/erata/virtual-bank-agent/blob/mai
 
 ---
 
-### 📚 Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme (Bölüm 3/6)
 
 ⬅️ **Önceki yazı:** [Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
 
