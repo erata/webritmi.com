@@ -101,12 +101,10 @@ Bu yaklaşım yalnızca bankacılıkta değil HR, sigorta, iç operasyon ve kuru
 
 ---
 
-### 📚 Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme (Bölüm 4/6)
 
 ⬅️ **Önceki yazı:** [EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/26/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar)
 
 ➡️ **Sonraki yazı:** [pgvector ile çok dilli güvenli RAG](https://webritmi.com/2026/11/26/pgvector-ile-cok-dilli-guvenli-rag-en-yakin-belge-her-zaman-dogru-belge-degildir)
 
 🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
-
-
