@@ -41,7 +41,14 @@ VirtualBank.Web             => Composition Root, DI, config ve host
 
 Ana ilke şu: **Application, Infrastructure'daki sağlayıcıyı tanımaz.** Örneğin Application'daki `IEmbeddingProvider`, embedding üretir; implementasyonun OpenRouter, OpenAI veya Ollama oluşu Application'ın problemi değildir. Aynısı `ICustomerRepository` ve `IAssistantRuntime` için de geçerlidir.
 
-![Clean Architecture Yapısı]({{ '/assets/media/clean-architecture.png' | relative_url }})
+```mermaid
+flowchart TD
+  W[Web / Composition Root] --> P[Presentation]
+  P --> A[Application / Use Cases]
+  W --> I[Infrastructure / Adapters]
+  I -. Implements ports .-> A
+  A --> M[Model / Domain]
+```
 
 Burada Dependency Inversion önemli: soyutlama iş ihtiyacını temsil eder. `GetCustomerHandler`, veritabanı sürücüsüne değil, güvenli bir müşteri okuma portuna bağımlıdır. DI kaydı ise Web katmanında gerçek adaptörü bağlar. Bu testte fake repository kullanabilmeyi de sağlar.
 
@@ -105,4 +112,8 @@ AI tool adapter ─────┘                 │                     (RLS)
 
 **Trade-off:** Modüler monolit, dağıtık servis işletim maliyeti olmadan mantıksal modül sınırları sağlayabilir. Mikroservise geçişi ancak ölçekleme, ekip sahipliği veya bağımsız dağıtım ihtiyacı gerekçelendirir. VirtualBank bu tercihin bir örneğidir, evrensel reçete değildir.
 
+## Yazı dizisinde gezinme
+
 [VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+
+[Sonraki: Keycloak, RBAC, ABAC ve PostgreSQL RLS →](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
