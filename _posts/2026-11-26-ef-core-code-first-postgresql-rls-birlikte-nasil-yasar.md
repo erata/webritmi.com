@@ -105,9 +105,13 @@ Güncel referans uygulama tek seferlik EF Core migrator, versiyonlu PostgreSQL p
 
 Detaylar: [mimari notları](https://github.com/erata/virtual-bank-agent/blob/main/docs/architecture.md) ve [EF doğrulama rehberi](https://github.com/erata/virtual-bank-agent/blob/main/docs/EF_SNAPSHOT_VERIFICATION.md).
 
+---
 
-### Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme
 
-[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+⬅️ **Önceki yazı:** [Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
 
-[← Önceki: Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim) · [Sonraki: Semantic Kernel ile bankacılık AI Agent →](https://webritmi.com/2026/11/25/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
+➡️ **Sonraki yazı:** [Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/25/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
+
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
+
