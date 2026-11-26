@@ -1,9 +1,29 @@
+
+---
+layout: post
+published: true
+excerpt_separator: <!--more-->
+title: "Semantic Kernel ile bankacılık AI Agent: LLM seçer, uygulama karar verir"
+tags:
+  - Semantic Kernel
+  - AI Agent
+  - LLM
+  - Tool Calling
+  - ASP.NET Core
+  - Authorization
+  - Ollama
+categories:
+  - csharp
+---
+
 > **Yazı dizisi:** .NET ile güvenli AI uygulamaları — Bölüm 4/6. Bu metin ürün duyurusu değil, [VirtualBank](https://github.com/erata/virtual-bank-agent) projesini örnek alan, başka projelere de uygulanabilecek mühendislik rehberidir.
 
 
 **Yayın özeti:** “Jana'nın parası kaç?” ve “Wie hoch ist Janas Guthaben?” aynı amaca işaret edebilir. Yapay zekâ cümleyi anlamalı; güvenlik, hesaplama ve veriye erişim ise C# uygulamasının sorumluluğunda kalmalı.
 
-![AI tool çağrısı ve güvenlik](../assets/security-rls.svg)
+![AI tool çağrısı ve güvenlik]({{ '/assets/media/security-rls.svg' | relative_url }})
+
+<!--more-->
 
 ## Anahtar kelime eşleştirmesi neden yetmez?
 
@@ -81,6 +101,10 @@ Bu yaklaşım yalnızca bankacılıkta değil HR, sigorta, iç operasyon ve kuru
 **Sonuç:** Agent'ı güvenilir yapan şey modelin her şeyi bilmesi değil, yanlış tahmin yaptığında bile yetki ve işlem sınırlarının korunmasıdır.
 
 
+
 ### Yazı dizisinde gezinme
 
-[← Önceki](./efcore-rls.md) · [Sonraki →](./secure-rag-pgvector.md) · [VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+
+[← Önceki: EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/26/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar) · [Sonraki: Secure RAG ve pgvector →](https://webritmi.com/2026/11/26/pgvector-ile-cok-dilli-guvenli-rag-en-yakin-belge-her-zaman-dogru-belge-degildir)
+
