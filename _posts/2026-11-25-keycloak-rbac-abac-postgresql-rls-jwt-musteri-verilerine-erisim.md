@@ -117,6 +117,7 @@ Güncel demoda platform admin kişisinin müşteri verisi talebi yönetici rolü
 
 **Sınır:** Güvenilir API host tamamen ele geçirilirse RLS context'i taklit edilebilir. Bu yüzden kısıtlı DB rolü, least privilege, Application policy ve audit birlikte düşünülür. VirtualBank'in [authorization modelini](https://github.com/erata/virtual-bank-agent/blob/main/docs/authorization-model.md) ve [threat modelini](https://github.com/erata/virtual-bank-agent/blob/main/docs/threat-model.md) inceleyebilirsin.
 
+---
 
 ### 📚 Yazı dizisinde gezinme
 
