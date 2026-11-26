@@ -19,7 +19,7 @@ categories:
 
 **Yayın özeti:** Bir banka asistanına AI eklemek kolay görünür. Asıl soru, Agent değiştiğinde Customer use case'lerinin ve güvenlik kurallarının nasıl korunacağıdır. VirtualBank'in modüler monolit tasarımını bu sorunun etrafında kurdum.
 
-![VirtualBank katmanları]({{ '/assets/media/architecture-overview.svg' | relative_url }})
+![Clean Architecture Yapısı]({{ '/assets/media/clean-architecture.png' | relative_url }})
 
 <!--more-->
 
