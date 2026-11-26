@@ -108,4 +108,7 @@ AI tool adapter ─────┘                 │                     (RLS)
 ## 📚 Yazı dizisinde gezinme
 
 ➡️ **Sonraki yazı:** [Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
+
+---
+
 🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
