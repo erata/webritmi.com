@@ -111,7 +111,7 @@ Detaylar: [mimari notları](https://github.com/erata/virtual-bank-agent/blob/mai
 
 ⬅️ **Önceki yazı:** [Keycloak, RBAC, ABAC ve PostgreSQL RLS](https://webritmi.com/2026/11/25/keycloak-rbac-abac-postgresql-rls-jwt-musteri-verilerine-erisim)
 
-➡️ **Sonraki yazı:** [Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/25/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
+➡️ **Sonraki yazı:** [Semantic Kernel ile bankacılık AI Agent](https://webritmi.com/2026/11/26/semantic-kernel-bankacilik-ai-agent-llm-secer-uygulama-karar-verir)
 
 🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
 
