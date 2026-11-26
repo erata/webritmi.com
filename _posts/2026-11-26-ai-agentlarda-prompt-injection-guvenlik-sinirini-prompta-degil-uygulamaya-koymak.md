@@ -93,9 +93,8 @@ Agent'a daha uzun bir system prompt yazarak bankacılık güvenliğini kuramayı
 
 ---
 
-### 📚 Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme (Bölüm 6/6)
 
 ⬅️ **Önceki yazı:** [pgvector ile çok dilli güvenli RAG](https://webritmi.com/2026/11/25/pgvector-cok-dilli-guvenli-rag-en-yakin-belge-dogru-degildir)
 
 🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
-
