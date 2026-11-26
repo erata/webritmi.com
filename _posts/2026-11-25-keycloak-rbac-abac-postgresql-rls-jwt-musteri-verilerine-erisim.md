@@ -119,7 +119,7 @@ Güncel demoda platform admin kişisinin müşteri verisi talebi yönetici rolü
 
 ---
 
-### 📚 Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme (Bölüm 2/6)
 
 ⬅️ **Önceki yazı:** [Clean Architecture](https://webritmi.com/2026/11/25/clean-architecture-moduler-monolit-sorumluluklar-bagimlilik-kurallari)
 
