@@ -90,6 +90,12 @@ Agent'a daha uzun bir system prompt yazarak bankacılık güvenliğini kuramayı
 
 **Kalan riskler:** Sohbet geçmişi, prompt ve tool log'ları hassas veri tutabilir; prompt injection için evrensel bir “tam çözüldü” durumu yoktur. VirtualBank, in-memory confirmation ve audit sınırlamalarını üretim güvenliği iddiası yerine açıkça belgeliyor. Bkz. [threat model](https://github.com/erata/virtual-bank-agent/blob/main/docs/threat-model.md).
 
-### Yazı dizisinde gezinme
 
-[← Önceki: pgvector ile çok dilli güvenli RAG](https://webritmi.com/2026/11/25/pgvector-cok-dilli-guvenli-rag-en-yakin-belge-dogru-degildir) · [VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+---
+
+### 📚 Yazı dizisinde gezinme
+
+⬅️ **Önceki yazı:** [pgvector ile çok dilli güvenli RAG](https://webritmi.com/2026/11/25/pgvector-cok-dilli-guvenli-rag-en-yakin-belge-dogru-degildir)
+
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
+
