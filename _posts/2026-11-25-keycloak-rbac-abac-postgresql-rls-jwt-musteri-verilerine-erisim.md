@@ -118,9 +118,11 @@ Güncel demoda platform admin kişisinin müşteri verisi talebi yönetici rolü
 **Sınır:** Güvenilir API host tamamen ele geçirilirse RLS context'i taklit edilebilir. Bu yüzden kısıtlı DB rolü, least privilege, Application policy ve audit birlikte düşünülür. VirtualBank'in [authorization modelini](https://github.com/erata/virtual-bank-agent/blob/main/docs/authorization-model.md) ve [threat modelini](https://github.com/erata/virtual-bank-agent/blob/main/docs/threat-model.md) inceleyebilirsin.
 
 
-### Yazı dizisinde gezinme
+### 📚 Yazı dizisinde gezinme
 
-[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+⬅️ **Önceki yazı:** [Clean Architecture](https://webritmi.com/2026/11/25/clean-architecture-moduler-monolit-sorumluluklar-bagimlilik-kurallari)
 
-[← Önceki: Clean Architecture](https://webritmi.com/2026/11/25/clean-architecture-moduler-monolit-sorumluluklar-bagimlilik-kurallari) · [Sonraki → EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/25/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar)
+➡️ **Sonraki yazı:** [EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/25/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar)
+
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
 
