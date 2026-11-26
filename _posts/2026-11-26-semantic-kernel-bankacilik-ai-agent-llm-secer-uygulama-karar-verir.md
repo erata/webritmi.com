@@ -1,4 +1,3 @@
-
 ---
 layout: post
 published: true
@@ -100,11 +99,14 @@ Bu yaklaşım yalnızca bankacılıkta değil HR, sigorta, iç operasyon ve kuru
 
 **Sonuç:** Agent'ı güvenilir yapan şey modelin her şeyi bilmesi değil, yanlış tahmin yaptığında bile yetki ve işlem sınırlarının korunmasıdır.
 
+---
 
+### 📚 Yazı dizisinde gezinme
 
-### Yazı dizisinde gezinme
+⬅️ **Önceki yazı:** [EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/26/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar)
 
-[VirtualBank kaynak kodu](https://github.com/erata/virtual-bank-agent)
+➡️ **Sonraki yazı:** [pgvector ile çok dilli güvenli RAG](https://webritmi.com/2026/11/26/pgvector-ile-cok-dilli-guvenli-rag-en-yakin-belge-her-zaman-dogru-belge-degildir)
 
-[← Önceki: EF Core Code First ve PostgreSQL RLS](https://webritmi.com/2026/11/26/ef-core-code-first-postgresql-rls-birlikte-nasil-yasar) · [Sonraki: Secure RAG ve pgvector →](https://webritmi.com/2026/11/26/pgvector-ile-cok-dilli-guvenli-rag-en-yakin-belge-her-zaman-dogru-belge-degildir)
+🔗 **Kaynak kodu:** [VirtualBank — GitHub](https://github.com/erata/virtual-bank-agent)
+
 
